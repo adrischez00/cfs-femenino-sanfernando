@@ -92,6 +92,25 @@ El objetivo era alejarse de soluciones genéricas y construir una experiencia m�
 
 ---
 
+# Panel de administración
+
+Además del escaparate público y el e-commerce, la plataforma incluye un panel interno de gestión diseñado para facilitar la administración diaria del club.
+
+Funciones principales:
+- Gestión de productos y catálogo
+- Control de pedidos
+- Gestión de imágenes y stock
+- Administración de contenido
+- Herramientas internas para mantenimiento operativo
+
+<p align="center">
+  <img src="./docs/admin-panel.png" width="100%" alt="Panel de administración"/>
+</p>
+
+El objetivo del panel era permitir que el club pudiera gestionar la plataforma sin depender constantemente de soporte técnico.
+
+---
+
 # Stack tecnológico
 
 | Capa | Tecnología |
