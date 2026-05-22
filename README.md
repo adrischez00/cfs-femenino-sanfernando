@@ -1,71 +1,152 @@
-# Tienda C.F.S. Femenino San Fernando
+# Plataforma Web · C.F.S. Femenino San Fernando
 
-E-commerce deportivo para el Club de Fútbol Sala Femenino San Fernando.  
-Cliente real, entregado y en mantenimiento activo.
+Plataforma digital oficial desarrollada para el Club de Fútbol Sala Femenino San Fernando.
 
-> El código del proyecto se mantiene **privado por confidencialidad del cliente**. Este repositorio contiene la documentación, decisiones técnicas y capturas del producto.
+Proyecto enfocado en combinar identidad visual, experiencia móvil y venta online en una única plataforma moderna, responsive y preparada para uso real por parte de familias, afición y cuerpo técnico.
 
-**Demo en vivo:** [femeninosanfernando.vercel.app](https://femeninosanfernando.vercel.app/)  
-**Más información:** [Portfolio – Proyecto Tienda CFS](https://portfolio-adrisanchez.vercel.app)  
-**Contacto:** adri.ia.dev@gmail.com
+<p align="center">
+  <img src="./docs/hero-home.png" width="100%" alt="Home principal CFS Femenino San Fernando"/>
+</p>
+
+> El código fuente del proyecto se mantiene privado por confidencialidad y mantenimiento comercial activo.  
+> Este repositorio actúa como showcase técnico y visual del producto.
+
+<br>
+
+🌐 **Web en producción:** https://femeninosanfernando.vercel.app  
+💼 **Portfolio:** https://portfolio-adrisanchez.vercel.app  
+📧 **Contacto:** adri.ia.dev@gmail.com
 
 ---
 
-## El contexto
+# El contexto
 
-El club necesitaba un canal de venta online para distribuir productos oficiales (equipaciones, merchandising, complementos) entre familias, afición y cuerpo técnico, sin depender de marketplaces genéricos ni de pedidos manuales por mensajería.
+El club necesitaba una plataforma moderna para centralizar:
+- presencia digital
+- merchandising oficial
+- comunicación visual
+- experiencia móvil
+- identidad de marca
 
-## La solución
+La mayor parte del tráfico llega desde Instagram, WhatsApp y redes sociales del club, por lo que el rendimiento y la experiencia móvil eran prioritarios desde el inicio.
 
-Una tienda web optimizada para móvil (la mayoría del tráfico llega desde redes sociales del club), con catálogo claro, ficha de producto sencilla y un proceso de pedido sin fricción pensado para usuarios no técnicos.
+---
 
-## Funcionalidades
+# La solución
 
-- Catálogo de productos oficiales con variantes (talla, color)
-- Ficha de producto con imágenes y descripción
+Una plataforma web responsive centrada en:
+- navegación rápida
+- experiencia visual moderna
+- compra sencilla desde móvil
+- catálogo claro y accesible
+- identidad visual coherente con el club
+
+El objetivo era alejarse de soluciones genéricas y construir una experiencia más cercana a una marca deportiva moderna.
+
+---
+
+# Funcionalidades principales
+
+- Catálogo de productos oficiales
+- Fichas de producto optimizadas para móvil
+- Variantes de talla y color
 - Carrito persistente
-- Proceso de pedido optimizado para móvil
-- Diseño responsive con la identidad visual del club
-- Panel para gestionar catálogo y pedidos
+- Proceso de compra simplificado
+- Diseño responsive adaptado a redes sociales
+- Integración de branding y patrocinadores
+- Panel de gestión para catálogo y pedidos
 
-## Capturas
+---
+
+# Capturas del producto
+
+## Home principal
 
 <p align="center">
-  <img src="docs/captura-1.png" width="700" alt="Página principal de la tienda"/>
+  <img src="./docs/hero-home.png" width="100%" alt="Home principal"/>
 </p>
+
+---
+
+## Experiencia móvil
 
 <p align="center">
-  <img src="docs/captura-2.png" width="700" alt="Ficha de producto"/>
+  <img src="./docs/mobile-mockup.png" width="340" alt="Experiencia móvil"/>
 </p>
 
-## Stack
+---
+
+## Página de producto
+
+<p align="center">
+  <img src="./docs/product-page.png" width="100%" alt="Página de producto"/>
+</p>
+
+---
+
+## Carrito y proceso de compra
+
+<p align="center">
+  <img src="./docs/checkout.png" width="100%" alt="Checkout y carrito"/>
+</p>
+
+---
+
+# Stack tecnológico
 
 | Capa | Tecnología |
 |---|---|
-| Frontend | Next.js · TypeScript · Tailwind |
+| Frontend | Next.js · TypeScript · TailwindCSS |
+| E-commerce | Stripe |
 | Despliegue | Vercel |
-| Imágenes | Optimización con next/image |
+| Imágenes | next/image |
+| Responsive | Mobile-first |
 
-## Decisiones técnicas
+---
 
-**Mobile-first sin concesiones.** El club difunde el catálogo a través de Instagram y WhatsApp, así que el 90% del tráfico llega desde móvil. Todo el diseño se construye primero para móvil y después se adapta a escritorio.
+# Decisiones técnicas
 
-**Next.js con renderizado optimizado.** Páginas rápidas, SEO correcto y carga eficiente de imágenes de catálogo, claves para una tienda con productos visuales.
+### Mobile-first desde el principio
 
-**Identidad visual del club como prioridad.** Tipografía, colores y fotografías alineadas con la marca del club, no con plantillas genéricas de e-commerce.
+La mayoría del tráfico llega desde redes sociales móviles, por lo que toda la experiencia se diseñó primero para smartphone y después para escritorio.
 
-**Proceso de compra pensado para no-expertos.** El público objetivo son familias, no compradores online frecuentes. Cada paso de la compra se simplificó al máximo.
+---
 
-## Estado actual
+### Diseño alineado con la identidad del club
 
-- En producción y operativa
-- Mantenimiento activo
-- Actualizaciones de catálogo según campañas del club
+La plataforma se construyó priorizando branding, sponsors, colores y coherencia visual frente a plantillas genéricas de e-commerce.
 
-## ¿Necesitas algo similar?
+---
 
-¿Eres un club, asociación o pequeño negocio que necesita su propia tienda online sin complicaciones?
+### Rendimiento y simplicidad
+
+Cada flujo se simplificó para usuarios no técnicos:
+- navegación clara
+- compra rápida
+- mínima fricción
+- carga rápida de imágenes y catálogo
+
+---
+
+### Next.js para rendimiento y SEO
+
+Uso de renderizado optimizado e imágenes eficientes para mejorar velocidad, posicionamiento y experiencia general.
+
+---
+
+# Estado actual
+
+- Plataforma en producción
+- Cliente real activo
+- Mantenimiento continuo
+- Evolución visual y funcional activa
+
+---
+
+# Contacto
+
+¿Necesitas una plataforma similar para un club, asociación o negocio?
 
 📧 **adri.ia.dev@gmail.com**  
-🌐 [portfolio-adrisanchez.vercel.app](https://portfolio-adrisanchez.vercel.app)  
-💼 [LinkedIn](https://www.linkedin.com/in/adrian-sanchez-guerrero)
+🌐 **Portfolio:** https://portfolio-adrisanchez.vercel.app  
+💼 **LinkedIn:** https://www.linkedin.com/in/adrian-sanchez-guerrero
